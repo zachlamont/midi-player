@@ -1,3 +1,10 @@
+To deploy using Github Actions
+
+1. Add .github/workflows/deploy.yml
+2. Edit vite.config.js
+3. In repository settings > Actions > General, Select read and write permitions.
+4. In Github, deploy via Github Actions
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

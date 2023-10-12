@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from "react";
 import { Midi } from "@tonejs/midi";
+import MidiJSONViewer from "./MidiJSONViewer";
 
 function MidiDropZone(props) {
   const [midiFiles, setMidiFiles] = useState([]);
@@ -50,6 +51,8 @@ function MidiDropZone(props) {
         </div>
       ))}
       {props.children}
+
+      <MidiJSONViewer midiFiles={midiFiles} />
     </div>
   );
 }

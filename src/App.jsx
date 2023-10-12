@@ -1,5 +1,6 @@
 import "./App.css";
 import MidiDropZone from "./components/MidiDropZone";
+import MidiJSONViewer from "./components/MidiJSONViewer";
 
 function App() {
   return (
